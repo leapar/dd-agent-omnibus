@@ -12,6 +12,7 @@ LOG_LEVEL=${LOG_LEVEL:-"info"}
 export OMNIBUS_BRANCH=${OMNIBUS_BRANCH:-"master"}
 export OMNIBUS_SOFTWARE_BRANCH=${OMNIBUS_SOFTWARE_BRANCH:-"master"}
 export OMNIBUS_RUBY_BRANCH=${OMNIBUS_RUBY_BRANCH:-"datadog-5.0.0"}
+export JMX_BRANCH=${JMX_BRANCH:-"master"}
 
 set -e
 
